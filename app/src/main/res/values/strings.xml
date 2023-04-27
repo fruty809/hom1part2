@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">6mon1lesson</string>
+    <string name="text">string</string>
+    <string name="confirm">string</string>
+    <string name="cannot_empty">string</string>
+    <string name="back">string</string>
+</resources>
