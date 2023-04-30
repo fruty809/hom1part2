@@ -3,20 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/black"
+    android:layout_height="match_parent"
     tools:context=".SecondActivity">
 
     <EditText
-        android:id="@+id/ed_text"
+        android:id="@+id/edit_1"
+        android:textColor="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/text"/>
+        android:layout_height="wrap_content"/>
+
     <Button
-        android:id="@+id/btn_back"
-        android:layout_width="match_parent"
+        android:id="@+id/btn_1"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/back"/>
+        android:layout_gravity="center"/>
+
 
 
 </LinearLayout>
